@@ -10,22 +10,24 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/style.css" class="rel" />
+    <link rel="stylesheet" href="/assets/style.css" />
   </head>
   <body>
-    <nav>
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="./index.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <header>
+      <nav class="font-weight-bold">
+        <ul class="nav bg-dark">
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <div class="container">
       <div class="row">
         <div class="container-fluid">
@@ -33,33 +35,77 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <section>
-      <div class="row">
-        <div class="col-lg-2">
-          <img
-            src="http://placehold.it/150x150"
-            alt=""
-            class="img-responsive float-left"
-          />
-        </div>
-        <div class="col-lg-10">
-          My name is Ben, and I am a fledgling full stack developer, enrolled
-          in a University of Adelaide bootcamp course. I wanted to get into
-          web development as a means of providing myself with more flexible
-          and long term employment opportunities. Many of my friends are
-          software developers and have been a ongoing source of inspiration to
-          get into this field of work.
-          <hr />
-          In my personal life I am an avid player of computer games, and have
-          been since I first touched a Super Nintendo (SNES) in the early 90's. This
-          passion for gaming and PC's more specifically has inevitably lead me
-          to pursuing a career in IT.
-          <hr />
-          <a href="https://www.linkedin.com/in/ben-trevethan-4a1b6b1b9/">Linkedin</a>
+    <content id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <img
+              class="img-responsive"
+              card
+              src="./assets/slackbw.jpg"
+              width="100%"
+              title="Me Being Gorgeous"
+            />
+            <h4 class="text-center">
+              <hr />
+              <a
+                class="btn btn-primary"
+                href="https://www.linkedin.com/in/ben-trevethan-4a1b6b1b9/"
+                role="button"
+                >Linkedin
+              </a>
+              <hr />
+              <a
+                class="btn btn-primary"
+                href="https://github.com/bendemic90"
+                role="button"
+                >Github
+              </a>
+            </h4>
+          </div>
+          <div class="col-xs-12 col-sm-8">
+            <div class="row">
+              <div class="col-sm-8">
+                <h6 class="pull-right">
+                  My name is Ben, and I am a fledgling full stack developer,
+                  enrolled in a University of Adelaide bootcamp course. I wanted
+                  to get into web development as a means of providing myself
+                  with more flexible and long term employment opportunities.
+                  Many of my friends are software developers and have been a
+                  ongoing source of inspiration and encouragement to get myself
+                  into this field of work.
+                  <hr />
+                  In my personal life I am an avid player of computer games, and
+                  have been since I first touched a Super Nintendo (SNES) in the
+                  early 90's. This passion for gaming and PC's more generally
+                  has inevitably lead me to pursuing a career in IT. I have a
+                  strong interest in programmatic solutions to problems, having
+                  scripted and automated as many actions as I possibly could in
+                  video games throughout the years.
+                  <hr />
+                  I finished Year 12 in 2007 and tried my hand at University,
+                  doing the first year of CompSci but going no further than
+                  that. I found full time work to have much more utility at that
+                  age, and so I did just that for the next 10 years in various
+                  Sales roles from front facing counter work to being on the
+                  road as a rep.
+                </h6>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      </section>
+    </content>
+    <div id="footer">
+      <div class="navbar navbar-fixed-bottom bg-dark font-weight-bold">
+        <div class="navbar-inner">
+          <div class="container">
+            <ul class="nav">
+              <li><a href="./index.html">Home</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
