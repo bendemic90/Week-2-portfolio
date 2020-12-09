@@ -17,3 +17,9 @@
 https://bendemic90.github.io/Week-2-portfolio/
 
 ## Screengrab of deployed application
+![screengrab](https://github.com/bendemic90/Week-2-portfolio/blob/main/assets/grab1.png)
+
+![screengrab](https://github.com/bendemic90/Week-2-portfolio/blob/main/assets/grab2.png)
+
+![screengrab](https://github.com/bendemic90/Week-2-portfolio/blob/main/assets/grab3.png)
+
