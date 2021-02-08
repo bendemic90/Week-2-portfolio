@@ -1,7 +1,8 @@
 html, body {
     position: relative;
     min-height: 100%;
-    background-color: rgb(176, 174, 179);
+    background-color: rgb(102, 101, 104);
+    color:cornsilk;
   }
 .portfolio-pics {
   padding-bottom: 20px;
