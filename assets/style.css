@@ -1,7 +1,11 @@
 html, body {
     position: relative;
     min-height: 100%;
+    background-color: rgb(176, 174, 179);
   }
 .portfolio-pics {
   padding-bottom: 20px;
+}
+#bio {
+  padding: 20px;
 }
